@@ -1,0 +1,42 @@
+.instance-container{
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+	color: #ffffff;
+}
+
+.inner-instance-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.atk-btns{
+	background-color: #595959;
+	border-style: dashed solid dashed solid;
+	border-color: #00ffcc;
+	border-width: 3px;
+	color: #ffffff;
+	font-family: 'Press Start 2P', cursive;
+	padding: 10px;
+	margin: 10px;
+}
+
+.atk-btns:hover{
+	color: blue;
+	border-color: blue;
+}
+
+.attack-type{
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+
+.fade-enter{
+	opacity: 0.1;
+}
+
+.fade-enter.fade-enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+

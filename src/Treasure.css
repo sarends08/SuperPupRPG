@@ -1,0 +1,36 @@
+.image-text-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.btn-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.opt-btn{
+	background-color: #595959;
+	border-style: dashed solid dashed solid;
+	border-color: #00ffcc;
+	border-width: 3px;
+	color: #ffffff;
+	font-family: 'Press Start 2P', cursive;
+	padding: 10px;
+	margin: 10px;
+}
+
+.opt-btn:hover{
+	color: blue;
+	border-color: blue;
+}
+
+.stat-text{
+	color: #ffffff;
+	font-family: 'Press Start 2P', cursive;
+	text-align: center;
+}
+
